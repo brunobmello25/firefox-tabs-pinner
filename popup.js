@@ -37,7 +37,6 @@ function handleStoreClick() {
 function handleOpenAndPinClick() {
   const urls = getUrlsFromTextArea();
 
-  console.log(urls);
   for (let url of urls) {
     const trimmed = url.trim();
     if (trimmed && isValidURL(trimmed)) {
