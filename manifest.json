@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Tabs Pinner",
+  "version": "1.0",
+  "description": "Pin a list of urls as pinned tabs",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
